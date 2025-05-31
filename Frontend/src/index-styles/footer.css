@@ -1,0 +1,117 @@
+@media print {
+    .footer
+    {
+        display: none !important;
+    }
+}
+
+
+
+
+.footer
+{
+    width: 100%;
+    height: 250px;
+    position: static;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+
+.dane-kontaktowe
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.footer-section-left
+{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+}
+
+
+.masz-pytanie
+{
+    font-size: 25px;
+}
+
+
+.Kontakt
+{
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+
+
+.numer-telefonu
+{
+    font-size: 30px;
+}
+
+.godziny-otwarcia
+{
+    font-size: 12px;
+}
+
+
+
+.footer-section-middle
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.logo
+{
+    width: 40%;
+}
+
+
+.brand-icon
+{
+    font-size: 40px;
+}
+
+.brand-icon i
+{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+.brand-icon i:hover
+{
+    transform: scale(1.25);
+}
+
+
+
+.obserwuj-nas
+{
+    font-size: 40px;
+}
+
+
+.footer-section-right
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,162 @@
+
+@media print {
+    .header
+    {
+        display: none !important;
+    }
+}
+
+
+.header
+{
+    background: linear-gradient(rgb(32, 32, 32), rgb(0, 0, 0));
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+    position: fixed;
+    z-index: 10;
+    color: black;
+}
+
+
+.tytul
+{
+    color: white;
+    font-size: 30px;
+}
+
+.custom-icon
+{
+    color: white;
+    font-size: 35px;
+    transition: 0.4s;
+    border-style: solid;
+    padding: 4px;
+}
+
+
+.custom-icon:hover
+{
+    transform: scale(1.2);
+}
+
+
+
+
+
+.left-section
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.middle-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-left: 3%;
+}
+
+
+.right-section
+{
+    display: flex;
+    gap: 20px;
+}
+
+.href
+{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-button
+{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: 'Asul', sans-serif;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+.menu-button:hover
+{
+    background-color: rgb(46, 128, 221);
+    transition: 0.25s;
+    color: black;
+    transform: scale(1.2);
+}
+
+.menu-button:active
+{
+    background-color: lightpink;
+    transition: 0s;
+}
+
+
+
+.zaloguj-button
+{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: 'Asul', sans-serif;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.zaloguj-button:hover
+{
+    background-color: rgb(46, 128, 221);
+    transition: 0.2s;
+    color: white;
+    transform: scale(1.2);
+}
+
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; 
+        height: auto;
+        padding: 10px; 
+    }
+
+    .menu-button {
+        font-size: 14px; 
+        padding: 8px;
+    }
+    
+    .left-section, .middle-section, .right-section {
+        width: 100%; 
+        text-align: center; 
+    }
+}
+
+
+.fa-dumbbell
+{
+    color: white;
+}

@@ -1,0 +1,272 @@
+﻿.panel-body
+{
+    color: black;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(white, black);
+    display: flex;
+    justify-content: center;
+
+}
+
+.p
+{
+    padding-top: 150px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.Profil
+{
+    background-color: white;
+    width: 25vw;
+    margin-left: 25px;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    color: black;
+    border: solid 3px black;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.napis-zmien-haslo
+{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.form-haslo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-haslo label
+{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.form-haslo input
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    background: #eaeaea;
+    border: solid 2px black;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease;
+}
+
+
+.form-haslo input:hover
+{
+   transform: scale(1.01);
+}
+
+
+.przycisk-hasla
+{
+    width: 50%;
+    height: 40px;
+    align-content: end;
+    background: #4CAF50;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.przycisk-hasla:hover
+{
+    background-color: #86df8a;
+}
+
+
+.napis1
+{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.dostepne-zajecia-frame
+{
+    background-color: white;
+    width: 25vw;
+    margin-left: 25px;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 35px;
+    color: black;
+    border: solid 3px black;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+
+
+
+.napis1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.dostepne-zajecia-frame ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.dostepne-zajecia-frame li {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.error
+{
+    color: red;
+    font-size: 12px;
+}
+
+.lista_uczestnikow
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pokaz-przysiskk{
+    margin-left: 10px;
+}
+.dostepne-zajecia-frame li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.dostepne-zajecia-frame .przycisk-odwolania-zajec
+{
+    background-color: red;
+}
+
+.dostepne-zajecia-frame .przycisk-odwolania-zajec:hover
+{
+    background-color: #fa6666;
+}
+
+.dostepne-zajecia-frame li p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+
+.dostepne-zajecia-frame button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.dostepne-zajecia-frame button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+.zapisane-zajecia-ramka {
+    background-color: white;
+    width: 25vw;
+    margin-left: 25px;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 35px;
+    color: black;
+    border: solid 3px black;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+
+.zapisane-zajecia-ramka h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.zapisane-zajecia-ramka ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.zapisane-zajecia-ramka li {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.zapisane-zajecia-ramka li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.zapisane-zajecia-ramka li p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+
+.zapisane-zajecia-ramka button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.zapisane-zajecia-ramka button:hover {
+    background-color: #c9302c;
+}

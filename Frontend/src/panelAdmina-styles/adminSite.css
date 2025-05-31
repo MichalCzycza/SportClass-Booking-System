@@ -1,0 +1,205 @@
+﻿.naglowek-dodaj-zajecia
+{
+    font-size: 35px;
+    text-align: center;
+}
+
+.nadaj-role-button
+{
+    margin-left: 10px;
+}
+
+.lista-zajec-naglowek, .zarzadzaj-uzytkownikami-naglowek
+{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.adminSite {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    color: black;
+}
+
+.panel-admina-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.dodaj-zajecia {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+
+.dodaj-zajecia-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dodaj-zajecia-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.dodaj-zajecia-form input,
+.dodaj-zajecia-form select,
+.dodaj-zajecia-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.dodaj-zajecia-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dodaj-zajecia-form button:hover {
+    background-color: #218838;
+}
+
+.lista-zajec {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+.lista-zajec ul {
+    list-style-type: none;
+    padding: 0;
+    width: 40%;
+}
+
+.lista-zajec li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.lista-zajec p {
+    margin: 5px 0;
+}
+
+.lista-zajec button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 250px;
+    height: 35px;
+}
+
+.lista-zajec button:first-of-type {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.lista-zajec button:first-of-type:hover {
+    background-color: #e0a800;
+}
+
+.lista-zajec button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+}
+
+.lista-zajec button:last-of-type:hover {
+    background-color: #c82333;
+}
+
+.zarzadzaj-uzytkownikami {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+.zarzadzaj-uzytkownikami ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.zarzadzaj-uzytkownikami li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.zarzadzaj-uzytkownikami p {
+    margin: 5px 0;
+}
+
+.zarzadzaj-uzytkownikami select {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    height: 38px;
+    font-size: 16px;
+}
+
+.zarzadzaj-uzytkownikami button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 250px;
+    height: 38px;
+}
+
+.zarzadzaj-uzytkownikami button:first-of-type {
+    background-color: #007bff;
+    color: white;
+}
+
+.zarzadzaj-uzytkownikami button:first-of-type:hover {
+    background-color: #0056b3;
+}
+
+.zarzadzaj-uzytkownikami button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+}
+
+.zarzadzaj-uzytkownikami button:last-of-type:hover {
+    background-color: #c82333;
+}

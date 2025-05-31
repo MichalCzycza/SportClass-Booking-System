@@ -1,0 +1,90 @@
+﻿.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(white, black);
+}
+
+
+.login-h1
+{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.login-ramka {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    text-align: center;
+    border: solid 2px lightgray;
+}
+
+.login-opis-input {
+    margin-bottom: 15px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+    transition: 0.2s ease;
+}
+
+.login-input:hover {
+    transform: scale(1.01);
+}
+
+.login-przycisk, .switch-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-przycisk:hover {
+    background-color: #555;
+}
+
+.login-linia {
+    margin: 20px 0;
+}
+
+#form,
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+
+.switch-button
+{
+    background: #3181fd;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+.switch-button:hover
+{
+    background: #609bf6;
+}
